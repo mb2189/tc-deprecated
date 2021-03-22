@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../../img/image0.jpeg';
+import logo from '../../../img/samsung.jpeg';
 
 import './NewPost.css';
 
@@ -14,12 +14,16 @@ class NewPost extends Component {
             <div className="home-wrapper">
                 <div className="banner-wrapper">
                     <div className="banner">
-                        <img src={logo} alt="Samsung Next Banner" width="800" height="400"></img>
+                        <img src={logo} alt="Samsung Next Banner" width="750" height="400"></img>
+                        <div className="banner-name">
+                            <h1>Next</h1>
+                            <h1>Connector</h1>
+                        </div>
                     </div>
                 </div>
                 <div className="home-flex-container">
                     <div className="info">
-                        <h1 className="next-head">Next Connector</h1>
+                        {/* <h1 className="next-head">Next Connector</h1> */}
                         <p>Samsung Next's priority will always be to elevate their people, past and present.<br></br><br></br>
                             We are launching our Samsung Next Talent Directory in order to connect indidviduals to talent and opportunities.
                             If you are interested in joining our private talent directory, please 

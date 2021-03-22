@@ -13,6 +13,7 @@
     box-sizing: border-box;
     cursor: pointer;
     transition: all 1 ease-in;
+    background-color: white;
 }
 
 .Post:hover,
@@ -20,6 +21,7 @@
     /* background-color: #C0DDF5; */
     box-shadow: black 0px 0px 0px 2px inset;
     transform: scale(1.1);
+    background-color: #eee;
 }
 
 .linkedin {

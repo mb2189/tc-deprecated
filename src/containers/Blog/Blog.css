@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap');
 
+.Blog {
+    background-image: url("../../img/Triangle-White-Seamless-Patterns.jpg");
+    /* background-image: url("../../img/Light-paper-fibers-Seamless-Pattern.jpg"); */
+    /* background-image: url("../../img/White-Brick-Wallpaper1.jpg"); */
+}
+
 .Blog nav {
     background-color: #eee;
     font-family: 'PT Sans', sans-serif;

@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap');
 
+img {
+    border: 3px solid black;
+}
+
 .banner {
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: center;
+}
+
+.banner-name {
+    margin: 0;
+    color: white;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 12%;
+    left: 51%;
+}
+
+.banner-name h1 {
+    margin: 0;
 }
 
 .home-flex-container {
@@ -37,6 +54,7 @@
     text-align: center;
     font-family: 'PT Sans', sans-serif;
     font-size: 1rem;
+    background-color: white;
 }
 
 .NewPost label {
