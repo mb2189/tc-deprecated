@@ -19,11 +19,14 @@ class NewPost extends Component {
                 </div>
                 <div className="home-flex-container">
                     <div className="info">
-                        <h1>Next Connector</h1>
-                        <p>Samsung Next's priority will always be to elevate their people.
+                        <h1 className="next-head">Next Connector</h1>
+                        <p>Samsung Next's priority will always be to elevate their people, past and present.<br></br><br></br>
+                            We are launching our Samsung Next Talent Directory in order to connect indidviduals to talent and opportunities.
                             If you are interested in joining our private talent directory, please 
-                            submit your information here. If you would simply like to view a list of 
-                            open reqs at our partner companies, please navigate to "partner tab".
+                            submit your information by entering in the form. If you would simply like to view a list of 
+                            open reqs at our partner companies, please navigate to "partners tab".<br></br><br></br>
+                            <span className="ital">Once a Nexter, always a Nexter</span><br></br><br></br>
+                            -Samsung Next Talent Acquisition
                         </p>
                     </div>
                     <div className="NewPost">
