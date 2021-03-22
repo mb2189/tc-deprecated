@@ -1,32 +1,45 @@
 import React, { Component } from 'react';
 
+import Company from '../../../components/Company/Company';
 import './Companies.css';
+import people from '../../../data/companyList';
 
-class Companies extends Component {
-
-    render () {
-        return (
-          <div className="companies">
-            <h1>Browse this list of Samsung Next partner companies who are currently hiring!</h1>
-            <div className="company-list">
-              <ul>
-                <li>
-                  <a href="">Company #1</a>
-                </li>
-                <li>
-                  <a href="">Company #2</a>
-                </li>
-                <li>
-                  <a href="">Company #3</a>
-                </li>
-                <li>
-                  <a href="">Company #4</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        );
+export default class Companies extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        companies: people,
+        selectedPostId: null,
     }
-}
+  }
 
-export default Companies;
+  postSelectHandler = (id) => {
+    this.setState({selectedCompanyId: id});
+  }
+
+
+  render () {
+    const companies = this.state.companies.map(post => {
+      return <Company 
+          key={post.id} 
+          entity={post.entity}
+          location={post.location}
+          contact={post.contact}
+          title={post.title}
+          email={post.email}
+          link={post.link}
+          clicked={() => this.postSelectHandler(post.id)}/>;
+  })
+
+    return (
+      <div className="Companies-body">
+        <div className="Companies-header">
+          <h1>Browse this list of Samsung Next partner companies who are currently hiring!</h1>
+          <section className="Companies">
+            {companies}
+          </section>
+        </div>
+      </div>
+    )
+  }
+}

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Post from '../../../components/Post/Post';
 import './Posts.css';
-import people from '../../../people';
+import people from '../../../data/people';
 
 export default class Posts extends Component {
   constructor(props) {

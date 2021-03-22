@@ -34,7 +34,7 @@ class NewPost extends Component {
                         </p>
                     </div>
                     <div className="NewPost">
-                        <h1>Your Info</h1>
+                        <h1>Your Information</h1>
                         <label>Full Name<span style={{color:"#dc3545"}}>*</span></label>
                         <input type="text"></input>
                         <label>Email<span style={{color:"#dc3545"}}>*</span></label>

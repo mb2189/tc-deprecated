@@ -74,4 +74,4 @@ const people = [
   // }
 ]
 
-export default people
+export default people;
