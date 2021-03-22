@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap');
+
+.banner {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-flex-container {
+    display: flex;
+}
+
+.NewPost {
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.NewPost label {
+    display: block;
+    width: 60%;
+    margin: 15px auto;
+    text-align: left;
+    font-weight: bold;
+}
+
+.NewPost input,
+.NewPost textarea,
+.NewPost select {
+    display: block;
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    border: 1px solid #d0d0d0;
+    outline: none;
+    font: inherit;
+    margin: auto;
+}
+
+.NewPost button {
+    margin: 20px 0;
+    margin-top: 30px;
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #17a2b8;
+    background-color: transparent;
+    color: #17a2b8;
+    cursor: pointer;
+}
+
+.NewPost button:hover,
+.NewPost button:active {
+    color: white;
+    background-color: #17a2b8;
+}

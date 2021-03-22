@@ -1,0 +1,11 @@
+.Posts-header {
+  text-align: center;
+}
+
+.Posts {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+}
