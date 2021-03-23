@@ -14,3 +14,7 @@
     transition: all 1 ease-in;
     background-color: white;
 }
+
+.Company:hover {
+  box-shadow: rgb(0 0 0) 0px 0px 0px 2px inset;
+}

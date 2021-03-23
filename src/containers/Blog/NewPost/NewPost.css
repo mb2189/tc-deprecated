@@ -4,6 +4,10 @@ img {
     border: 3px solid black;
 }
 
+.home-wrapper {
+    font-family: "PT sans", sans-serif;
+}
+
 .banner {
     display: flex;
     margin: auto;
@@ -42,8 +46,10 @@ img {
     margin-left: 25%;
 }
 
-.ital {
+.quote {
     font-style: italic;
+    display: flex;
+    justify-content: center;
 }
 
 .NewPost {
