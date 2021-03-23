@@ -35,7 +35,7 @@ export default class Posts extends Component {
     return (
       <div className="Posts-wrapper">
         <div className="Posts-header">
-          <h1>Browse through some of the talented individuals who have worked at Samsung Next and are available to new opportunities.</h1>
+          <h1>Browse through some of the talented individuals who have worked at Samsung Next and are available and open to new opportunities.</h1>
         </div>
         <section className="Posts">
           {posts}
