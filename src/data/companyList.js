@@ -12,7 +12,7 @@ const companyList = [
     "id": 2,
     "entity": "Samsung Electronics America (SEA)",
     "location": "Mountain View, CA",
-    "contact": "Srividya Ramachandran",
+    "contact": "Sri Ramachandran",
     "title": "Talent Acquisition Leader",
     "email": "sramchandran@gmail",
     "link": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/1/refreshFacet/318c8bb6f553100021d223d9780d30be"
@@ -31,14 +31,14 @@ const companyList = [
     "entity": "Samsung Strategy and Innovation Center (SSIC)",
     "location": "San Jose, CA",
     "contact": "Brent Powell",
-    "title": "Head of Talent Acquisition and Executive Search",
+    "title": "Head of Talent Acquisition",
     "email": "",
     "link": "https://www.samsung.com/us/ssic/jobs/"
   },
   {
     "id": 5,
     "entity": "Samsung SDI",
-    "location": "",
+    "location": "United States",
     "contact": "John Klein",
     "title": "Recruiter",
     "email": "",

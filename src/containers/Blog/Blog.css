@@ -7,7 +7,7 @@
 }
 
 .Blog nav {
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.6);
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
 }
@@ -29,9 +29,10 @@
     text-decoration: none;
     color: black;
     margin: 0 20px;
+    font-weight: bold;
 }
 
 .Blog a:hover,
 .Blog a:active {
-    color: #17a2b8;
+    color: #13cbe7;
 }

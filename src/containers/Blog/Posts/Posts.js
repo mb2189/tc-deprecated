@@ -24,6 +24,7 @@ export default class Posts extends Component {
           key={post.id} 
           name={post.name}
           email={post.email}
+          work={post.work}
           country={post.country}
           department={post.department}
           title={post.title}
@@ -32,8 +33,10 @@ export default class Posts extends Component {
   })
 
     return (
-      <div className="Posts-header">
-        <h1>Browse through some of the talented individuals who have worked at Samsung Next.</h1>
+      <div className="Posts-wrapper">
+        <div className="Posts-header">
+          <h1>Browse through some of the talented individuals who have worked at Samsung Next and are available to new opportunities.</h1>
+        </div>
         <section className="Posts">
           {posts}
         </section>  

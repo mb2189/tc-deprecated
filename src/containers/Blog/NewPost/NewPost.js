@@ -14,7 +14,7 @@ class NewPost extends Component {
             <div className="home-wrapper">
                 <div className="banner-wrapper">
                     <div className="banner">
-                        <img src={logo} alt="Samsung Next Banner" width="750" height="400"></img>
+                        <img src={logo} alt="Samsung Next Banner" width="750" height="400" className="logo"></img>
                         <div className="banner-name">
                             <h1>Next</h1>
                             <h1>Connector</h1>
@@ -31,7 +31,6 @@ class NewPost extends Component {
                             interested in viewing open positions with
                             our partner companies, please navigate to "partners tab".<br></br><br></br>
                             <span className="quote">Once a Nexter, always a Nexter!</span><br></br>
-                            -Samsung Next Talent Acquisition
                         </p>
                     </div>
                     <div className="NewPost">

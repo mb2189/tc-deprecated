@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap');
 
-img {
+.logo {
     border: 3px solid black;
 }
 
@@ -90,14 +90,14 @@ img {
     margin-top: 30px;
     padding: 10px;
     font: inherit;
-    border: 1px solid #17a2b8;
+    border: 1px solid #13cbe7;
     background-color: transparent;
-    color: #17a2b8;
+    color: #13cbe7;
     cursor: pointer;
 }
 
 .NewPost button:hover,
 .NewPost button:active {
     color: white;
-    background-color: #17a2b8;
+    background-color: #13cbe7;
 }

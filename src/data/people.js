@@ -1,77 +1,74 @@
 const people = [
   {
     "id": 1,
-    "name": "Leanne Graham",
-    "email": "lgraham@gmail.com",
+    "name": "Michelle Hart",
+    "work": "Full-time",
+    "email": "michelle.hart@samsungnext.com",
     "country": "United States",
-    "department": "Marketing",
-    "title": "Manager",
-    "linkedin": "https://www.linkedin.com/in/matthew-buckley19/"
+    "department": "Human Resources",
+    "title": "Global Head of People",
+    "linkedin": "https://www.linkedin.com/in/michellenhart/"
   },
   {
     "id": 2,
-    "name": "Steve Jones",
-    "email": "sjones@gmail.com",
+    "name": "Elyssa O'Hara",
+    "work": "Full-time",
+    "email": "e.ohara@samsungnext.com",
     "country": "United States",
-    "department": "Product",
-    "title": "Designer"
+    "department": "Talent Acquisition",
+    "title": "Talent Acquisition Manager",
+    "linkedin": "https://www.linkedin.com/in/elyssaohara/"
   },
   {
     "id": 3,
-    "name": "Sharon Moore",
-    "email": "smoore@gmail.com",
-    "country": "Israel",
+    "name": "Jeff Hall",
+    "work": "Contract",
+    "email": "jeff.hall@samsungnext.com",
+    "country": "United States",
     "department": "Talent Acquisition",
-    "title": "Recruiter"
+    "title": "Talent Acquisition Coordinator",
+    "linkedin": "https://www.linkedin.com/in/jeffreyhall12/"
   },
   {
     "id": 4,
-    "name": "Leanne Graham",
-    "email": "Sincere@april.biz",
+    "name": "Rachel Davis",
+    "work": "Full-time",
+    "email": "rachel.davis@samsungnext.com",
     "country": "United States",
-    "department": "Marketing",
-    "title": "Manager"
+    "department": "Human Resources",
+    "title": "People Programs Manager",
+    "linkedin": "https://www.linkedin.com/in/rachel-davis-ms-phr-56a7a255/"
   },
   {
     "id": 5,
-    "name": "Leanne Graham",
-    "email": "Sincere@april.biz",
+    "name": "Alex Hong",
+    "work": "Full-time",
+    "email": "alexhong@samsungnext.com",
     "country": "United States",
-    "department": "Marketing",
-    "title": "Manager"
+    "department": "Human Resources",
+    "title": "People Business Partner",
+    "linkedin": "https://www.linkedin.com/in/alex-hong-b42422107/"
   },
   {
     "id": 6,
-    "name": "Leanne Graham",
-    "email": "Sincere@april.biz",
+    "name": "Emily Balestreri",
+    "work": "Contract",
+    "email": "emily.balestreri@samsungnext.com",
     "country": "United States",
-    "department": "Marketing",
-    "title": "Manager"
+    "department": "Human Resources",
+    "title": "People Programs Specialist",
+    "linkedin": "https://www.linkedin.com/in/emilybalestreri/"
   },
   {
     "id": 7,
-    "name": "Leanne Graham",
-    "email": "Sincere@april.biz",
+    "name": "Michelle Hagins",
+    "work": "Full-time",
+    "email": "michlle.hagins@samsungnext.com",
     "country": "United States",
-    "department": "Marketing",
-    "title": "Manager"
+    "department": "Human Resources",
+    "title": "People Business Partner",
+    "linkedin": "https://www.linkedin.com/in/michellehagins/"
   },
-  {
-    "id": 8,
-    "name": "Leanne Graham",
-    "email": "Sincere@april.biz",
-    "country": "United States",
-    "department": "Marketing",
-    "title": "Manager"
-  },
-  // {
-  //   "id": 9,
-  //   "name": "Leanne Graham",
-  //   "email": "Sincere@april.biz",
-  //   "country": "United States",
-  //   "department": "Marketing",
-  //   "title": "Manager"
-  // }
 ]
 
 export default people;
