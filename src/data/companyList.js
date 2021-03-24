@@ -5,7 +5,7 @@ const companyList = [
     "location": "Mountain View, CA",
     "contact": "Claire Zhang",
     "title": "Head of HR",
-    "email": "czhang@gmail",
+    "email": "claire.zhang@samsung.com",
     "link": "https://www.sra.samsung.com/open-positions/"
   },
   {
@@ -14,7 +14,7 @@ const companyList = [
     "location": "Mountain View, CA",
     "contact": "Sri Ramachandran",
     "title": "Talent Acquisition Leader",
-    "email": "sramchandran@gmail",
+    "email": "srividya.r@samsung.com",
     "link": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/1/refreshFacet/318c8bb6f553100021d223d9780d30be"
   },
   {
