@@ -25,7 +25,7 @@ class NewPost extends Component {
                     <div className="info">
                         {/* <h1 className="next-head">Next Connector</h1> */}<br></br><br></br>
                         <p>Samsung Next's goal will always be to elevate their people, past and present.<br></br><br></br>
-                            We are launching our Samsung Next Talent Directory in order to connect indidviduals to talent and opportunities.
+                            We are launching our Samsung Next Talent Directory in order to connect individuals to talent and opportunities.
                             If you are interested in joining our private talent directory, please 
                             submit your information by entering in the form. If you do not want to be listed in the directory, but are still
                             interested in viewing open positions with
