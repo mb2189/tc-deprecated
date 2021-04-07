@@ -2,33 +2,27 @@ import React, { Component } from 'react';
 
 import Company from '../../../components/Company/Company';
 import './Companies.css';
-import people from '../../../data/companyList';
+import companies from '../../../data/companyList';
 
 export default class Companies extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        companies: people,
+        companies: companies,
         selectedPostId: null,
     }
   }
 
-  postSelectHandler = (id) => {
-    this.setState({selectedCompanyId: id});
-  }
-
-
   render () {
-    const companies = this.state.companies.map(post => {
+    const companies = this.state.companies.map(company => {
       return <Company 
-          key={post.id} 
-          entity={post.entity}
-          location={post.location}
-          contact={post.contact}
-          title={post.title}
-          email={post.email}
-          link={post.link}
-          clicked={() => this.postSelectHandler(post.id)}/>;
+          key={company.id} 
+          entity={company.entity}
+          location={company.location}
+          contact={company.contact}
+          title={company.title}
+          email={company.email}
+          link={company.link}/>;
   })
 
     return (
