@@ -53,7 +53,7 @@
     justify-content: center;
 }
 
-.NewPost {
+.NewPerson {
     width: 70%;
     margin: 20px auto;
     border: 1px solid #eee;
@@ -64,7 +64,7 @@
     background-color: white;
 }
 
-.NewPost label {
+.NewPerson label {
     display: block;
     width: 60%;
     margin: 15px auto;
@@ -72,9 +72,9 @@
     font-weight: bold;
 }
 
-.NewPost input,
-.NewPost textarea,
-.NewPost select {
+.NewPerson input,
+.NewPerson textarea,
+.NewPerson select {
     display: block;
     width: 60%;
     padding: 10px;
@@ -86,7 +86,7 @@
     margin: auto;
 }
 
-.NewPost button {
+.NewPerson button {
     margin: 20px 0;
     margin-top: 30px;
     padding: 10px;
@@ -97,8 +97,8 @@
     cursor: pointer;
 }
 
-.NewPost button:hover,
-.NewPost button:active {
+.NewPerson button:hover,
+.NewPerson button:active {
     color: white;
     background-color: #13cbe7;
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './Post.css';
+import './Person.css';
 import emailImage from '../../img/mail.png';
 
 const style = {"font-weight": "normal"};
 
-const post = (props) => (
-    <article className="Post" onClick={props.clicked}>
+const person = (props) => (
+    <article className="Person" onClick={props.clicked}>
         <h1>{props.name}</h1>
         <p>Worked as: {props.work}</p>
         <p>{props.title}</p>
@@ -26,4 +26,4 @@ const post = (props) => (
     </article>
 );
 
-export default post;
+export default person;

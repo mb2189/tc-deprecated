@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../../../img/avengers.png';
 
-import './NewPost.css';
+import './NewPerson.css';
 
-class NewPost extends Component {
+class NewPerson extends Component {
     state = {
         fullName: '',
         email: '',
@@ -28,7 +28,7 @@ class NewPost extends Component {
                             our partner companies, please navigate to "partners tab".<br></br><br></br>
                         </p>
                     </div>
-                    <div className="NewPost">
+                    <div className="NewPerson">
                         <h1>Your Information</h1>
                         <label>Full Name<span style={{color:"#dc3545"}}>*</span></label>
                         <input type="text"></input>
@@ -61,4 +61,4 @@ class NewPost extends Component {
     }
 }
 
-export default NewPost;
+export default NewPerson;

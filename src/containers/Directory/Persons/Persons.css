@@ -1,10 +1,10 @@
-.Posts-wrapper {
+.Persons-wrapper {
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 
-.Posts-header {
+.Persons-header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@
   margin: auto;
 }
 
-.Posts {
+.Persons {
   display: flex;
   flex-flow: wrap;
   justify-content: center;

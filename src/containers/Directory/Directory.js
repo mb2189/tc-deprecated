@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 
-import './Blog.css';
-import Posts from './Posts/Posts';
-import NewPost from './NewPost/NewPost';
+import './Directory.css';
+import Persons from './Persons/Persons';
+import NewPerson from './NewPerson/NewPerson';
 import Companies from './Companies/Companies';
 
-class Blog extends Component {
+class Directory extends Component {
     render () {
         return (
-            <div className="Blog">
+            <div className="Directory">
                 <header>
                     <nav>
                         <ul>
@@ -19,12 +19,12 @@ class Blog extends Component {
                         </ul>
                     </nav>
                 </header>
-                <Route path="/" exact component={NewPost} />
-                <Route path="/talent" component={Posts} />
+                <Route path="/" exact component={NewPerson} />
+                <Route path="/talent" component={Persons} />
                 <Route path="/companies" component={Companies} />
             </div>
         );
     }
 }
 
-export default Blog;
+export default Directory;

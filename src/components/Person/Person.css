@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-.Post {
+.Person {
     font-family: 'Montserrat', sans-serif;
     min-width: 22rem;
     padding: 16px;
@@ -15,8 +15,8 @@
     background-color: white;
 }
 
-.Post:hover,
-.Post:active {
+.Person:hover,
+.Person:active {
     box-shadow: black 0px 0px 0px 2px inset;
     transform: scale(1.1);
     background-color: #eee;
