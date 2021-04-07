@@ -1,57 +1,51 @@
 const companyList = [
   {
     "id": 1,
-    "entity": "Samsung Research America (SRA)",
+    "entity": "Google",
     "location": "Mountain View, CA",
-    "contact": "Claire Zhang",
-    "title": "Head of HR",
-    "email": "claire.zhang@samsung.com",
-    "link": "https://www.sra.samsung.com/open-positions/"
+    "contact": "Larry Page",
+    "title": "Marketing Intern",
+    "email": "lpage@google.com",
   },
   {
     "id": 2,
-    "entity": "Samsung Electronics America (SEA)",
+    "entity": "Facebook",
     "location": "Mountain View, CA",
-    "contact": "Sri Ramachandran",
-    "title": "Talent Acquisition Leader",
-    "email": "srividya.r@samsung.com",
-    "link": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/1/refreshFacet/318c8bb6f553100021d223d9780d30be"
+    "contact": "Mark Zuckerberg",
+    "title": "Talent Management",
+    "email": "mzuck@facebook.com",
   },
   {
     "id": 3,
-    "entity": "Samsung Electronics Canada (SECA)",
-    "location": "Canada",
-    "contact": "Christy O'Conner-Khan",
-    "title": "",
-    "email": "",
-    "link": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/1/refreshFacet/318c8bb6f553100021d223d9780d30be"
+    "entity": "Twitter",
+    "location": "San Francisco, CA",
+    "contact": "Jack Dorsey",
+    "title": "Strategy Manager",
+    "email": "jdorsey@twitter.com",
   },
   {
     "id": 4,
-    "entity": "Samsung Strategy and Innovation Center (SSIC)",
-    "location": "San Jose, CA",
-    "contact": "Brent Powell",
-    "title": "Head of Talent Acquisition",
-    "email": "",
-    "link": "https://www.samsung.com/us/ssic/jobs/"
+    "entity": "Nvidia",
+    "location": "Santa Clara, CA",
+    "contact": "Jensen Huang",
+    "title": "Head of Technology",
+    "email": "jhuang@nvidia.com",
   },
   {
     "id": 5,
-    "entity": "Samsung SDI",
+    "entity": "Apple",
     "location": "United States",
-    "contact": "John Klein",
-    "title": "Recruiter",
-    "email": "",
-    "link": "https://www.samsungsdi.com/career/search-jobs-list.html"
+    "contact": "Tim Cook",
+    "title": "Software Engineer",
+    "email": "tcook@apple.com",
   },
   {
     "id": 6,
-    "entity": "Samsung SDS",
-    "location": "United States",
-    "contact": "Jina Park",
-    "title": "Head of Talent Acquisition",
-    "email": "",
-    "link": "https://samsung.jobs.net/search"
+    "entity": "Tesla",
+    "location": "Fremont, CA",
+    "contact": "Elon Musk",
+    "title": "Regional Sales Manager",
+    "email": "emusk@tesla.com",
   }
 ]
 

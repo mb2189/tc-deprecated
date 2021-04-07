@@ -34,7 +34,7 @@ export default class Companies extends Component {
     return (
       <div className="Companies-body">
         <div className="Companies-header">
-          <h1>Browse this list of Samsung Next partner companies who are currently hiring!</h1>
+          <h1>Browse this list of partner companies who are currently hiring!</h1>
           <section className="Companies">
             {companies}
           </section>

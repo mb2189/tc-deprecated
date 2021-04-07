@@ -32,11 +32,12 @@
 .email {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: center;
 }
 
 .emailImage {
     height: 25px;
+    margin: 10px;
 }
 
 

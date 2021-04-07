@@ -12,7 +12,7 @@ const company = (props) => (
         <p>Email: {props.email}</p>
         <div className="link">
             <img src={companyLogo} alt="logo" className="companyLogo" width="20px"></img> 
-            <a href={props.link} target="_blank">List of Open Jobs</a>
+            <p>List of Open Jobs</p>
         </div>
     </article>
 );

@@ -1,73 +1,73 @@
 const people = [
   {
     "id": 1,
-    "name": "Michelle Hart",
+    "name": "Steve Rogers",
     "work": "Full-time",
-    "email": "michelle.hart@samsungnext.com",
+    "email": "srogers@gmail.com",
     "country": "United States",
     "department": "Human Resources",
     "title": "Global Head of People",
-    "linkedin": "https://www.linkedin.com/in/michellenhart/"
+    "linkedin": ""
   },
   {
     "id": 2,
-    "name": "Elyssa O'Hara",
+    "name": "Natasha Romanov",
     "work": "Full-time",
-    "email": "e.ohara@samsungnext.com",
+    "email": "nromanov@gmail.com",
     "country": "United States",
     "department": "Talent Acquisition",
     "title": "Talent Acquisition Manager",
-    "linkedin": "https://www.linkedin.com/in/elyssaohara/"
+    "linkedin": ""
   },
   {
     "id": 3,
-    "name": "Jeff Hall",
+    "name": "Thor Odinson",
     "work": "Contract",
-    "email": "jeff.hall@samsungnext.com",
+    "email": "todinson@gmail.com",
     "country": "United States",
-    "department": "Talent Acquisition",
-    "title": "Talent Acquisition Coordinator",
-    "linkedin": "https://www.linkedin.com/in/jeffreyhall12/"
+    "department": "Engineering",
+    "title": "Project Manager",
+    "linkedin": ""
   },
   {
     "id": 4,
-    "name": "Rachel Davis",
+    "name": "Steven Strange",
     "work": "Full-time",
-    "email": "rachel.davis@samsungnext.com",
+    "email": "sstrange@gmail.com",
     "country": "United States",
-    "department": "Human Resources",
-    "title": "People Programs Manager",
-    "linkedin": "https://www.linkedin.com/in/rachel-davis-ms-phr-56a7a255/"
+    "department": "Technology",
+    "title": "Researcher",
+    "linkedin": ""
   },
   {
     "id": 5,
-    "name": "Alex Hong",
+    "name": "Peter Parker",
     "work": "Full-time",
-    "email": "alexhong@samsungnext.com",
+    "email": "pparker@gmail.com",
     "country": "United States",
-    "department": "Human Resources",
-    "title": "People Business Partner",
-    "linkedin": "https://www.linkedin.com/in/alex-hong-b42422107/"
+    "department": "Marketing",
+    "title": "Social Media Strategist",
+    "linkedin": ""
   },
   {
     "id": 6,
-    "name": "Emily Balestreri",
+    "name": "Bruce Banner",
     "work": "Contract",
-    "email": "emily.balestreri@samsungnext.com",
+    "email": "bbanner@gmail.com",
     "country": "United States",
     "department": "Human Resources",
     "title": "People Programs Specialist",
-    "linkedin": "https://www.linkedin.com/in/emilybalestreri/"
+    "linkedin": ""
   },
   {
     "id": 7,
-    "name": "Michelle Hagins",
+    "name": "Tony Stark",
     "work": "Full-time",
-    "email": "michlle.hagins@samsungnext.com",
+    "email": "tstark@gmail.com",
     "country": "United States",
-    "department": "Human Resources",
-    "title": "People Business Partner",
-    "linkedin": "https://www.linkedin.com/in/michellehagins/"
+    "department": "Sales",
+    "title": "Regional Sales Manager",
+    "linkedin": ""
   },
 ]
 

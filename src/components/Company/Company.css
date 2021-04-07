@@ -2,7 +2,7 @@
 
 .Company {
   font-family: 'Montserrat', sans-serif;
-  width: 18rem;
+  min-width: 22rem;
   padding: 16px;
   text-align: center;
   border: 1px solid #eee;
