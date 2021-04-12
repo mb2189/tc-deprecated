@@ -5,7 +5,7 @@ import emailImage from '../../img/mail.png';
 
 const style = {"font-weight": "normal"};
 
-const person = (props) => (
+const person = props => (
     <article className="Person" onClick={props.clicked}>
         <h1>{props.name}</h1>
         <p>Worked as: {props.work}</p>

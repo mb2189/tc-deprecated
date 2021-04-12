@@ -3,7 +3,7 @@ import React from 'react';
 import './Company.css';
 import companyLogo from '../../img/globe.png'
 
-const company = (props) => (
+const company = props => (
     <article className="Company" onClick={props.clicked}>
         <h1>{props.entity}</h1>
         <p>Location: {props.location}</p>
